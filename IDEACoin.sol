@@ -625,6 +625,6 @@ contract ERC20 is Context, IERC20 {
 contract IDEACoin is ERC20 {
 
     constructor () ERC20("99products", "IDEA"){
-        _mint(msg.sender, 1001010123 * (10 ** uint256(decimals())));
+        _mint(msg.sender, 30000000 * (10 ** uint256(decimals())));
     }
 }
